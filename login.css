@@ -1,0 +1,143 @@
+/* .main_container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 550px;
+    background-color: wheat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.main_container .container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(125, 125, 175, 0.164);
+}
+
+.container .login{
+    font-size: 50px;
+    margin-top: 90px;
+    margin-left: 200px
+    
+}
+
+.social-icons{
+    margin-left: 200px;
+    
+
+}
+
+.main_container .second_box{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc(100% - 50%);
+    height: 100%;
+    background: pink;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0e2e2;
+}
+
+.container{
+    display: flex;
+    height: 27rem;
+    width: 40%;
+    margin: 140px auto;
+    overflow: hidden;
+    box-shadow: 2px 4px 5px rgb(120, 117, 117);
+    border-radius: 10px;
+}
+.content{
+    padding-top: 60px;
+    background-color: white;
+    width: 22rem;
+}
+.right_site{
+    background-color: #eb5368;
+    width: 22rem;
+}
+
+/* side_left */
+
+#Login{
+    text-align: center;
+    font-size: 30px;
+    font-weight:600;
+}
+.icones{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    padding-top: 15px;
+}
+
+.content p{
+    text-align: center;
+    padding-top: 15px;
+}
+.second_container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+#email,#pass{
+    padding: 7px;
+    width: 200px;
+    margin-top: 15px;
+    outline: none;
+    background-color: #d3d3d3;
+    border: none;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+button{
+    color: white;
+    background-color: red;
+    padding: 6px 25px;
+    border-radius: 15px;
+    border: none;
+}
+button:hover{
+    background-color: #eb5368;
+}
+
+
+/* right-site */
+
+._right{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 15px;
+}
+._right h2{
+
+}
+._right p{
+    font-size: 12px;
+}
+
+._right{
+    background-color: #eb5368;
+    width: 22rem;
+}
